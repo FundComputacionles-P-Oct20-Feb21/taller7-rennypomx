@@ -1,0 +1,39 @@
+1. Inicio
+// Variables
+2. nombre, x(200)[{1-9},{a-z},{A-Z}, {BS}]
+3. cadenaF, x(200)[{1-9},{a-z},{A-Z}, {BS}] <--""
+4. posicionC x(200)[{1-9},{a-z},{A-Z}, {BS}]
+5. edad, i[0,n]
+6. estatura, d[0,n]
+7. bandera, i[0,n] <-- true
+8. x, d[0,n] 
+9. contador, i[0,n] <-- 1
+10. sumaEd, i[0,n] <-- 0
+11. sumaS, d[0,n] <-- 0
+12. promedioEd i[0,n]
+13. promedioEs i[0,n]
+//Proceso
+14. Haga_Hasta 
+15. Escribir " Ingresar el nombre del jugador"
+16. Leer nombre
+17. Escribir "Ingresar la posicion de campo de juego"
+18. Leer posicionC
+19. Escribir "Ingresar la edad del jugador"
+20. Leer edad
+21. Escribir "Ingresar la estatura del jugardor"
+22. Leer estatura
+23. sumaEd <-- sumaEd + edad
+24. sumaS <-- sumaS + estatura 
+25.  cadenaF= cadenaF + nombre + posicion + "edad" + edad + "Estatura" + estatura
+26. contador <-- contador + 1 
+27. Escribir " Ingresar -1 para salir del ciclo"
+28. Leer x
+29.  Si ( x = -1) entonces
+30.   bandera <-- false
+31.  Fin si
+32. fin Haga_ Hasta (bandera == false)
+33. promedioEd = sumaEd / contador
+34. promedioEs = sumaS / contador
+35. cadenaF =cadenaF +"Promedio de edades:"+ promedioEd +"Promedio de estaturas:" + promedioEs
+36. Escribir cadenaF
+37. Fin 

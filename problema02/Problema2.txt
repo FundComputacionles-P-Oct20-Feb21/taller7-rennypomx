@@ -1,0 +1,9 @@
+1. Inicio
+// Variables
+2. contador, i[o,n]<-- 1
+// Proceso
+3. mientras (contador <= 9) entonces
+4. Escribir "+1/" + contador
+5. contador<-- contador +2
+6. Fin mientras
+7. Fin
